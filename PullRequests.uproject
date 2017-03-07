@@ -9,9 +9,16 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine",
-				"GameplayTasks"
+        "Engine",
+        "GameplayTasks",
+        "GameplayAbilities"
 			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
