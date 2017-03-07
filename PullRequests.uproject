@@ -1,0 +1,20 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{38394567-498C-E49E-BD30-75A4AFA3DDFB}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "PullRequests",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"GameplayTasks"
+			]
+		}
+	],
+	"TargetPlatforms": [
+		"WindowsNoEditor"
+	]
+}
